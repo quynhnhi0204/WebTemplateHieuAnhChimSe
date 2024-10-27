@@ -1,0 +1,276 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+	height: 0;
+}
+.container{
+	width: 1200px;
+    height: auto;
+	margin: 0 auto;
+}
+.wrapper{
+    width: 100%;
+}
+.txtHeading{
+    padding: 2em;
+}
+
+/* header */
+.header{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.logo{
+    width: 100%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+}
+.nav{
+    float: left;
+    width: 100%;
+    height: 75px;
+    padding: 30px 0;
+    box-sizing: border-box;
+    background-color: #c3b493;
+    opacity: 75%;
+    position: fixed;
+    top: 0;
+ }
+ .nav a {
+    text-align: center;
+    width: 100%;
+    color: #464836;
+    font-size: 18px;
+    padding-right: 5%;
+    text-decoration: none;
+    /* background-color: palegoldenrod; */
+}
+.nav a:hover {
+    color: black;
+    font-weight:bold;
+}
+
+/* main */
+.main{
+    width: 100%;
+    float: left;
+    height: auto;
+}
+#about{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2em;
+    text-align: center;
+    background-image: url(../img/bnw\ web.jpg);
+    /* background-color: yellowgreen; */
+}
+.about-trai{
+    width: 65%;
+    height: 520px;
+    float: left;
+    background-color: salmon;
+}
+.about-trai img{
+    width: 100%;
+}
+.about-phai{
+    width: 33%;
+    height: 520px;
+    float: right;
+    background-color: rgba(32, 28, 36, 0.452);
+    text-align: left;
+    border-radius: 5%;
+    padding: 20px;
+}
+.about-phai p{
+    color: #c3b493;
+}
+#portrait{
+    float: left;
+    width: 100%;
+    text-align: center;
+    /* background-color: green; */
+}
+.portrait-trai{
+    width: 50%;
+    height: auto;
+    float: left;
+    /* background-color: salmon; */
+}
+.portrait-trai img{
+    width: 100%;
+}
+.portrait-phai{
+    width: 45%;
+    height: auto;
+    float: right;
+    /* background-color: plum; */
+}
+.portrait-phai img{
+    width: 90%;
+}
+.top{
+    float: left;
+    height: 200px;
+    width: 100%;
+    /* background-color: #c3b493; */
+}
+.top p{
+    float: right;
+    padding-right: 1.5em;
+    position: relative;
+    top: 85%;
+}
+.bottom{
+    float: left;
+    height: 20%;
+    width: 100%;
+}
+.tren{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+.duoi{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+.tren-trai, .duoi-trai{
+    width: 48%;
+    float: left;
+}
+.tren-phai, .duoi-phai{
+    width: 48%;
+    float: right;
+}
+.part1{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.part2{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+}
+.part3{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+}
+.part4{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+}
+#film{
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    /* background-color: green; */
+}
+.part1film{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.part2film{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+}
+.part3film{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+}
+.film-trai{
+    width: 38%;
+    height: auto;
+    float: left;
+    /* background-color: salmon; */
+}
+.film-trai img{
+    width: 100%;
+}
+.film-phai{
+    width: 60%;
+    height: auto;
+    float: right;
+    /* background-color: plum; */
+}
+.film-phai img{
+    width: 20%;
+}
+.film-top{
+    float: left;
+    width: 100%;
+    height: 470px;
+}
+.film-bottoms{
+    float: left;
+    width: 100%;
+    height: 30%;
+}
+#contact{
+    margin-top: 2em;
+    float: left;
+    width: 100%;
+    height: 180px;
+    background-color: #464836;
+}
+#contact p{
+    padding-top: 30px;
+    padding-left: 150px;
+    line-height: 300%;
+}
+#contact p, a{
+    color: #c3b493;
+}
+.pattern{
+    float: left;
+    width: 100%;
+    height: 300px;
+}
+.pattern img{
+    padding: 0 !important;
+    width: 100%;
+}
+/* footer */
+.footer{
+    float: left;
+    width: 100%;
+    height: 100px;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #464836;
+    background-image: url(../img/pattern.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: #c3b493;
+}
+.copyright{
+    position: relative;
+    top: 35%;
+}
